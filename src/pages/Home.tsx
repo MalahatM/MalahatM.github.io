@@ -13,7 +13,7 @@ function Home() {
     setShakingButton(index);
 
     if (buttons[index] === "Resume") {
-      window.open("/my-portfolio/resume.pdf", "_blank");
+      window.open("/resume.pdf", "_blank");
     } else if (buttons[index] === "Projects") {
       navigate("/projects");
     } else if (buttons[index] === "About") {
